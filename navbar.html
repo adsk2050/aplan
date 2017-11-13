@@ -1,0 +1,39 @@
+        <!-- Navbar (sit on top) done final-->
+        <div class="w3-top">
+                <div class="w3-bar w3-white w3-card" id="myNavbar">
+                    <!-- logo -->
+                    <a style="text-decoration:none" href="#home"><img src="files/A plan Logo.png" width="59px" height="59px"></a>
+                    <!-- Right-sided navbar links -->
+                    <div class="w3-right w3-hide-small">
+                        <a style="text-decoration:none" href="#about" class="w3-bar-item w3-button"><i class="fa fa-address-book"></i> ABOUT US</a>
+                        <a style="text-decoration:none" href="#timeline" class="w3-bar-item w3-button"><i class="fa fa-calendar"></i> TIMELINE</a>
+                        <a style="text-decoration:none" href="#result" class="w3-bar-item w3-button"><i class="fa fa-star"></i> RESULT</a>
+                        <a style="text-decoration:none" href="#structure" class="w3-bar-item w3-button"><i class="fa fa-cubes"></i> STRUCTURE</a>
+                        <a style="text-decoration:none" href="#incentives" class="w3-bar-item w3-button"><i class="fa fa-diamond"></i> INCENTIVES</a>
+                        <a style="text-decoration:none" href="files/faq.pdf" class="w3-bar-item w3-button"><i class="fa fa-life-bouy"></i> FAQ</a>
+                        <a style="text-decoration:none" href="files/rulebook.pdf" class="w3-bar-item w3-button"><i class="fa fa-balance-scale"></i> RULEBOOK</a>
+                        <a style="text-decoration:none" href="https://docs.google.com/forms/d/e/1FAIpQLSdIcZwR3hPANUfgkZ9Z3LWo87eSIeCJdhH_Vrwt15Qgj59iTw/viewform?usp=sf_link" class="w3-bar-item w3-button"><i class="fa fa-pencil-square-o"></i> REGISTER</a>
+                        <a style="text-decoration:none" href="#team" class="w3-bar-item w3-button"><i class="fa fa-users"></i> TEAM</a>
+                    </div>
+                    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+    
+                    <a style="text-decoration:none" href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </div>
+            </div>
+    
+            <!-- Sidebar on small screens when clicking the menu icon  done final -->
+            <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+                <a style="text-decoration:none" href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+                <a style="text-decoration:none" href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT US</a>
+                <a style="text-decoration:none" href="#timeline" onclick="w3_close()" class="w3-bar-item w3-button">TIMELINE</a>
+                <a style="text-decoration:none" href="#result" onclick="w3_close()" class="w3-bar-item w3-button">RESULT</a>
+                <a style="text-decoration:none" href="#structure" onclick="w3_close()" class="w3-bar-item w3-button">STRUCTURE</a>
+                <a style="text-decoration:none" href="#incentives" onclick="w3_close()" class="w3-bar-item w3-button">INCENTIVES</a>
+                <a style="text-decoration:none" href="files/faq.pdf" onclick="w3_close()" class="w3-bar-item w3-button">FAQ</a>
+                <a style="text-decoration:none" href="files/rulebook.pdf" onclick="w3_close()" class="w3-bar-item w3-button">RULEBOOK</a>
+                <a style="text-decoration:none" href="https://docs.google.com/forms/d/e/1FAIpQLSdIcZwR3hPANUfgkZ9Z3LWo87eSIeCJdhH_Vrwt15Qgj59iTw/viewform?usp=sf_link" onclick="w3_close()" class="w3-bar-item w3-button">REGISTER</a>
+                <a style="text-decoration:none" href="#team" onclick="w3_close()" class="w3-bar-item w3-button">TEAM</a>
+            </nav>
+    
