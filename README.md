@@ -1,5 +1,5 @@
-ction Plan - IIT Guwahati Chapter
+Website for Action Plan - IIT Guwahati Chapter
 
 Social Service Club, IITG
 
-UNDER CONTRUCTION
+[PROTOTYPE]
